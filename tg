@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Salle 1 </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="moncss.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="w3-container w3-dark-grey" style="text-align: center ; font-size: 150%">
+            <p>NOAM CINE</p>
+        </div>
+            <div class="w3-bar w3-gray">
+                <a href="#" class="w3-bar-item w3-button w3-mobile w3-light-grey">Home</a>
+                <a href="#" class="w3-bar-item w3-button w3-mobile">Link 1</a>
+                <a href="#" class="w3-bar-item w3-button w3-mobile">Link 2</a>
+                <div class="w3-dropdown-hover w3-mobile">
+                    <button class="w3-button">Dropdown <i class="fa fa-caret-down"></i></button>
+                    <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
+                        <a href="#" class="w3-bar-item w3-button w3-mobile">Link 1</a>
+                        <a href="#" class="w3-bar-item w3-button w3-mobile">Link 2</a>
+                        <a href="#" class="w3-bar-item w3-button w3-mobile">Link 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 
