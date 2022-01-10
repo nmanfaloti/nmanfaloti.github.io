@@ -33,12 +33,12 @@ div.relative {
 
 .rela1 {
   position: relative;
-  left: 500px;
+  left: 470px;
   top: -170px;
 }
 .ima2{
     top: -498px;
-    left: 450px;
+    left: 410px;
     position: relative;
 }
 .ima3{
@@ -48,11 +48,11 @@ div.relative {
 }
 .rela2 {
   position: relative;
-  left: 900px;
+  left: 850px;
   top: -300px;
 }
 
 .corp{
-    width:auto,100px;
-    height:100px;
+    width:auto;
+    height:auto;
 }
