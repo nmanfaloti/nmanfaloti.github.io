@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8 nov. 2021, 15:32:54
+    Author     : nmanfaloti
+*/
+.fling-minislide {width:750px; height:500px; overflow:hidden; position:relative; }
+
+.fling-minislide img{ position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height: auto;}
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
+
+.fling-minislide img:nth-child(4){animation-delay:0s;}
+
+.fling-minislide img:nth-child(3){animation-delay:5s;}
+
+.fling-minislide img:nth-child(2){animation-delay:10s;}
+
+.fling-minislide img:nth-child(1){animation-delay:15s;}
+
+div.relative {
+  position: relative;
+  left: 0px;
+  top: -20px;
+}
+.ima{
+    top: -295px;
+    position: relative;
+}
+
+.rela1 {
+  position: relative;
+  left: 500px;
+  top: -170px;
+}
+.ima2{
+    top: -498px;
+    left: 450px;
+    position: relative;
+}
+.ima3{
+    top: 0;
+    left: 400px;
+    position: absolute;
+}
+.rela2 {
+  position: relative;
+  left: 900px;
+  top: -300px;
+}
+
+.corp{
+    width:auto,100px;
+    height:100px;
+}
