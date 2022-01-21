@@ -22,37 +22,72 @@ and open the template in the editor.
 .fling-minislide img:nth-child(1){animation-delay:15s;}
 
 div.relative {
-  position: relative;
-  left: 0px;
-  top: -20px;
+  position: absolute;
+  left: 0;
+  right:0;
+  top: 15%;
+  bottom:0;
+  margin:auto;
 }
 .ima{
-    top: -295px;
-    position: relative;
+  position: absolute;
+  left: 0;
+  right:0;
+  top: 41%;
+  bottom:0;
+  margin:auto;
 }
 
 .rela1 {
-  position: relative;
-  left: 470px;
-  top: -170px;
+  position: absolute;
+  left: 35%;
+  right:0;
+  top: 18%;
+  bottom:0;
+  margin:auto;
 }
 .ima2{
-    top: -498px;
-    left: 410px;
-    position: relative;
+  position: absolute;
+  left: 35%;
+  right:0;
+  top: 0%;
+  bottom:0;
+  margin:auto;
 }
 .ima3{
-    top: 0;
-    left: 400px;
-    position: absolute;
+  position: absolute;
+  left: 60%;
+  right:0;
+  top: 0%;
+  bottom:0;
+  margin:auto;
 }
 .rela2 {
-  position: relative;
-  left: 850px;
-  top: -300px;
+  position: absolute;
+  left: 70%;
+  right:0;
+  top: 18%;
+  bottom:0;
+  margin:auto;
 }
 
 .corp{
     width:auto;
     height:auto;
+    position:absolute;
+    left:-54%
+}
+
+table {
+  border: 1px solid black;
+  font: 16px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+thead > tr {
+  background-color: rgb(228, 240, 245);
+}
+
+th, td {
+  border: 1px solid black;
+  padding:4px 6px;
 }
