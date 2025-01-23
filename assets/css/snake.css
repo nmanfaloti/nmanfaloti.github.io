@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #3d3d3d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    height: 90vh;
+    width: 100vw;
+}
+.data > p {
+    color: white;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.gameboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 80vh;
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+
+.cell {
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    /* border:  1px solid rgba(0, 0, 0, 0.199); */
+    overflow: visible;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.snake{
+    width: 100%;
+    height: 100%;
+    background-color: #3865D3;
+}
+.head{
+    width: 100%;
+    height: 100%;
+    background-color: #3865D3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.eyes{
+    width: 25%;
+    height: 40%;
+    background-color: white;
+}
+.head.left .eyes, .head.right .eyes{
+    display: flex;
+    align-items: center;
+    margin-left: 50%;
+} 
+.head.down .eyes{
+    transform: rotate(-90deg);
+}
+.eyesdot{
+    width: 50%;
+    height: 50%;
+    background-color: black;
+}
+.tail{
+    width: 100%;
+    height: 100%;
+    background-color: #3865D3;
+}
+.head.right{
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.tail.right {
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+}
+.head.left{
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.tail.left {
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.head.down{
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.tail.down {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.head.up{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.tail.up {
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+
+
+.apple{
+    margin-top:-1px;
+    width: 90%;
+    height: 90%;
+    overflow: visible;
+    background-color: red;
+    border-radius: 50%;
+}
+
